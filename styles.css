@@ -167,7 +167,7 @@ footer .text-body-secondary {
     @media screen and (max-width: 560px) {
     /* CSS rules for screens with a maximum width of 560px */  
     img{
-        height: 300px;
+        height: 250px;
         }
     .circle{
         width: 125px;
