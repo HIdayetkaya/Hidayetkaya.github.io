@@ -1,0 +1,120 @@
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.title{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr;
+    align-items: center;
+    padding: 100px;
+    row-gap: 100px; 
+    /* column-gap: 10px; */
+}
+.info{
+    grid-column: 1;
+    grid-row: 1;
+    justify-content: center;
+    max-width: 80%;
+    height: 100%;
+    /* margin-left: 30%; */
+    place-self: center;
+    background: linear-gradient(90deg, #7D0A0A, #BF3131);
+    padding: 20px; /* optional: adds spacing inside the div */
+    border-radius: 10px; /* optional: rounds the corners */
+    color: #EEEEEE; /* optional: makes text readable on red */
+}
+.school-container{
+    place-self: center;
+}
+.school{
+    grid-column: 1;
+    grid-row: 1;
+    /* margin-left: 10%; */
+    border-radius: 40%;
+    border : 5px #BF3131 solid;
+}
+.contact-title{
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    padding: 100px;
+}
+.mid-info{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 80%;
+    height: 100%;
+    /* margin-left: 10%; */
+    place-self: center;
+    background: linear-gradient(90deg, #BF3131, #7D0A0A);
+    padding: 20px; 
+    border-radius: 10px; 
+    color: #EEEEEE; 
+}
+.gs-container{
+    place-self: center;
+}
+.gs{
+    grid-column: 1;
+    grid-row: 2;
+    /* margin-left: 30%; */
+    border-radius: 40%;
+    border : 5px #BF3131 solid;
+}
+.contact{
+    grid-column: 1/ span 2;
+    grid-row: 3;
+    width: 90%;
+    height: 100%;
+    /* margin-left: 15%; */
+    place-self: center;
+    background: linear-gradient(90deg, #7D0A0A, #BF3131);
+    padding: 20px; 
+    border-radius: 10px; 
+    color: #EEEEEE; 
+}
+.circle{
+    grid-column: 2;
+    grid-row: 3;
+    width: 250px;
+    height: 250px;
+    place-self: center;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #BF3131, #7D0A0A);
+    border: 2px solid #EAD196;
+    box-shadow: #EAD196 0px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+img{
+    height: 500px;
+}
+footer {
+    background-color: #f1f1f1;
+    border-top: 1px solid #EAD196;
+    padding: 100px;
+
+}
+footer .text-body-secondary {
+    color: #7D0A0A !important;
+    margin-left: 5%;
+
+}
+header{
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #EAD196;
+    font-size: 2rem;
+    padding: 100px;
+}
+header .text-body-secondary {
+    text-align: center;
+    color: #7D0A0A !important;
+}
+.link{
+    color: #EEEEEE;
+}
