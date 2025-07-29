@@ -3,6 +3,17 @@ body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
+header{
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #EAD196;
+    width: 100%;
+    font-size: 2rem;
+    padding: 100px;
+}
+header .text-body-secondary {
+    text-align: center;
+    color: #7D0A0A !important;
+}
 .title{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -25,6 +36,9 @@ body{
     border-radius: 10px; /* optional: rounds the corners */
     color: #EEEEEE; /* optional: makes text readable on red */
 }
+img{
+    height: 500px;
+}
 .school-container{
     place-self: center;
 }
@@ -34,13 +48,6 @@ body{
     /* margin-left: 10%; */
     border-radius: 40%;
     border : 5px #BF3131 solid;
-}
-.contact-title{
-    display: grid;
-    grid-template-columns: 1fr, 1fr;
-    grid-template-rows: 1fr;
-    align-items: center;
-    padding: 100px;
 }
 .mid-info{
     grid-column: 2;
@@ -91,30 +98,61 @@ body{
     justify-content: center;
     font-size: 24px;
 }
-img{
-    height: 500px;
-}
 footer {
     background-color: #f1f1f1;
     border-top: 1px solid #EAD196;
     padding: 100px;
-
+    width: 100%;
 }
 footer .text-body-secondary {
     color: #7D0A0A !important;
     margin-left: 5%;
 
 }
-header{
-    background-color: #f1f1f1;
-    border-bottom: 1px solid #EAD196;
-    font-size: 2rem;
-    padding: 100px;
-}
-header .text-body-secondary {
-    text-align: center;
-    color: #7D0A0A !important;
-}
 .link{
     color: #EEEEEE;
 }
+@media screen and (max-width: 768px) {
+    /* CSS rules for screens with a maximum width of 768px */
+    .title {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr;
+        align-items: center;
+        padding: 20px;
+    }
+    .info{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    img{
+        height: 400px;
+    }
+    .school-container{
+        place-self: center;
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .mid-info{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .gs-container{
+        place-self: center;
+        grid-column: 1;
+        grid-row: 4;
+    }
+    .contact{
+        grid-column: 1;
+        grid-row: 5;
+    }
+    .circle{
+        grid-column: 1;
+        grid-row: 5;
+        width: 200px;
+        height: 200px;
+        margin-left: 40%;  
+    }
+
+
+    }
