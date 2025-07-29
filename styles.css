@@ -106,12 +106,13 @@ footer {
 }
 footer .text-body-secondary {
     color: #7D0A0A !important;
-    margin-left: 5%;
+    align-items: center;
 
 }
 .link{
     color: #EEEEEE;
 }
+
 @media screen and (max-width: 768px) {
     /* CSS rules for screens with a maximum width of 768px */
     header{
@@ -122,11 +123,13 @@ footer .text-body-secondary {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr;
         align-items: center;
+        row-gap: 50px; 
         padding: 20px;
     }
     .info{
         grid-column: 1;
         grid-row: 1;
+        align-items: center;
     }
     img{
         height: 400px;
@@ -159,17 +162,18 @@ footer .text-body-secondary {
     footer{
         width: 100%;
     }
-
-
     }
-@media screen and (max-width: 560px) {
+
+    @media screen and (max-width: 560px) {
     /* CSS rules for screens with a maximum width of 560px */  
     img{
         height: 300px;
         }
     .circle{
-        width: 150px;
-        height: 150px;
+        width: 125px;
+        height: 125px;
         margin-left: 50%;  
         }
+        
     }
+    
