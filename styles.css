@@ -246,7 +246,7 @@ img{
     @media screen and (max-width: 560px) {
     /* CSS rules for screens with a maximum width of 560px */  
     .header-cont{
-        width: 110%;
+        width: 100%;
         padding: 1rem;
     }
     img{
@@ -267,3 +267,4 @@ img{
         
     }
     
+
