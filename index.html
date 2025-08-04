@@ -3,64 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hidayet Kaya</title>
+    <title>About Hidayet Kaya</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <header class="d-flex flex-wrap justify-content-center align-items-center py-3 mb-4">
-        <span class="mb-3 mb-md-0 text-body-secondary">Hidayet Kaya</span>
+
+    <header class="header">
+        <div class="header-cont">
+        <div class="logo">HK</div>
+        <nav class="nav-list">
+            <a class="nav-item" href="index.html">Home</a>
+            <a class="nav-item" href="https://www.linkedin.com/in/hidayetkaya">LinkedIn</a>
+            <a class="nav-item" href="https://github.com/HIdayetkaya">GitHub</a>
+            <a class="nav-item" href="mailto:hidayetkaya650@gmail.com">Email</a>
+
+        </nav>
+        </div>
     </header>
+
+
 
     <div class="top-page">
         <div class="title">
-            
-            <div class="info">
-                <h1>About Me</h1>
-                    <p>I'm a dedicated iOS and Web developer, passionate about building user-friendly, visually polished, and performance-optimized applications.</p>
-                <h2> Education</h2>
-                    <p>University of Houston, Computer Science B.S.</p>
-                <h4>Relevant Coursework:</h3>
-                    <p>Computer Science & Program, Design File and Database Syst, Computer Org & Architecture, Digital Media Processing,
-                    Software Design, Introduction to Ubiquitous Computing.</p>
-                <h4>Technical Certification:</h3>
-                    <p>The Complete Full-Stack Web Development Bootcamp from Udemy</p>
-            </div>
-            
-            <div class="school-container">
-                <img class="school" src="./assets/uni.jpg">
-            </div>
-            
-            <div class="gs-container">
-                <img class="gs" src="./assets/gs.jpg" alt="">
-            </div>
-            
-            <div class="mid-info">
-                <h1>Hobbies</h1>
-                <h2>Sports</h2>
-                <p>I love almost all sports and have a special bond with every Houston team, especially the Houston Texans. Soccer is my favorite sport, both to play and watch. I'm a huge Galatasaray fan, as you can probably tell from the photo. They are the pride of my hometown and have a special place in my heart.</p>
-                <h2>Travel</h2>
-                <p>Exploring is one of the things that keeps me motivated. Discovering the beauty of the world gives me a sense of inspiration and energy. Some of my favorite places I have visited include Denver, Colorado and Seattle, Washington. I should also mention the clear waters and blue skies of Tanzania.</p>
-            </div>
-            
-            <div class="contact">
-                <h1>Get in Touch</h1>
-                <p>Feel free to contact me any time!</p>
-                <h2>Email:</h2>
-                <p>Hidayetkaya650@gmail.com</p>
-                <h2>LinkedIn</h2>
-                <p> <a class="link" href="https://www.linkedin.com/in/hidayetkaya">www.linkedin.com/in/hidayetkaya</a></p>      
-            </div>
-            
-            <div class="circle"></div>
-            
+            <!-- top page opener --> 
+        <div class="name"> 
+            <div class=>Hi I'm <span class="hidayet">Hidayet</span></div>
+            <div class="info-detail">I am a 23 year old iOS and web developer based in Houston, Texas. Passionate about building scalable and user-friendly applications.  Whether it's crafting sleek mobile apps or dynamic websites, I enjoy turning ideas into functional, intuitive products.</div>
         </div>
+
+            <!-- Mid page education -->
+            <div class="info">   </div>
+                <div class="school-info">
+                    <div class="info-main-title">Education</div>
+                    <div class="info-detail">University of Houston, Computer Science B.S.</div>
+                    <div class="info-title">Relevant Coursework:</div>
+                    <div class="info-detail">Computer Science & Program, Design File and Database Syst, Computer Org & Architecture, Digital Media Processing,
+                        Software Design, Introduction to Ubiquitous Computing.</div>
+                    <div class="info-title">Technical Certification:</div>
+                    <div class="info-detail">The Complete Full-Stack Web Development Bootcamp from Udemy</div> 
+                </div>
+                <div class="school-cont"> </div>
+                <div class="school-img">
+                    <img class="school" src="./assets/uni.jpg">
+                </div>
+
+            <!-- Mid page Hobies -->
+            <div class="gs-cont"> </div>
+            <div class="gs-img">
+                    <img src="./assets/gs.png" alt="">
+                </div>
+                <div class="h-info">
+                    <div class="info-main-title">Hobbies</div>
+
+                    <div class="info-title">Sports</div>
+                    <div class="info-detail">I love almost all sports and have a special bond with every Houston team, especially the Houston Texans. Soccer is my favorite sport, both to play and watch. I'm a huge Galatasaray fan, as you can probably tell from the photo. They are the pride of my hometown and have a special place in my heart.</div> 
+
+                    <div class="info-title">Travel</div>
+                    <div class="info-detail">Exploring is one of the things that keeps me motivated. Discovering the beauty of the world gives me a sense of inspiration and energy. Some of my favorite places I have visited include Denver, Colorado and Seattle, Washington. I should also mention the clear waters and blue skies of Tanzania.</div>
+                </div>
+
+               <!-- bottom page projects -->
+        <div class="project">
+            <div class="info-main-title">Projects</div>
+            <div class="project1">
+                <div class="info-title">Task Flow</div>
+                    <div class="project-disc">iOS Development | Houston, TX <span class="date">Aug 2024 – Dec 2024</span></div>
+                        <ul class="project-bullet">
+                            <li>Developed a SwiftUI-based task management app using @State, @Binding, @ObservedObject, and @EnvironmentObject to ensure responsive
+                                UI updates and robust state management, all structured within a scalable MVVM architecture.</li>
+                            <li>Designed an intuitive calendar interface with LazyVGrid and LazyHGrid, integrated gesture controls and haptic feedback, and improved user
+                                engagement through interactive event tracking and smooth UI responsiveness.</li>
+                            <li>Enhanced performance using LazyStacks and optimized view transitions, achieving a 20% reduction in load times while ensuring accessibility
+                                compliance through GeometryReader, DynamicType scaling, and adaptive layout techniques.</li>
+                            <li>Established seamless navigation with NavigationStack and deep-linking, reducing navigation errors by 15%, while leveraging Swift’s
+                                async/await and Task API for efficient background processing and smooth data handling.</li>
+                        </ul>
+            </div>
+            <div class="project2">
+                <div class="info-title">Volunteer Portal</div>
+                    <div class="project-disc">Software Engineering | Houston, TX <span class="date">June 2024 – Aug 2024</span></div>
+                        <ul class="project-bullet">
+                            <li>Collaborated with a team of three to build a full-stack Volunteer Management System using HTML, CSS, Python, Flask, and Jinja2, designing
+                                scalable back-end logic and integrating dynamic content to support real-time task assignments.</li>
+                            <li>Designed and optimized front-end interfaces with clean HTML templates, custom CSS, and Bootstrap layouts, ensuring cross-device
+                                responsiveness and achieving a 50% improvement in visual consistency across desktop and mobile.</li>
+                            <li>Streamlined rapid prototyping and component styling through CSS custom properties, accelerating UI/UX development cycles and improving
+                                visual consistency by 50%.</li>
+                            <li>Integrated and managed SQLite databases with efficient schema design and optimized queries, while ensuring seamless interaction between
+                                front-end and back-end systems—resulting in 40% more stable data flow and reliable user experiences.</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        
+
+         
     </div>
- 
-    <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 mb-4">
-            <span class="mb-3 mb-md-0 text-body-secondary">Hidayet Kaya</span>
-    </footer>
     
 </body>
 </html>
